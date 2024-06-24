@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Task Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Project Task Tracker</h1>
+        <div id="login-section">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button id="login-btn">Login</button>
+        </div>
+        <div id="task-section" style="display: none;">
+            <h2>Welcome, <span id="user-greeting"></span>!</h2>
+            <div id="task-list"></div>
+            <div id="admin-controls" style="display: none;">
+                <input type="text" id="new-task" placeholder="New task title">
+                <button id="add-task-btn">Add Task</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
