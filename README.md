@@ -56,9 +56,6 @@ The `policy.rego` file contains the access control rules written in Rego, OPA's 
 - Add more sophisticated task management features (e.g., due dates, priorities)
 - Implement user registration and profile management
 
-## Contributing
-
-Contributions to improve the project are welcome. Please feel free to submit a Pull Request.
 
 ## License
 
