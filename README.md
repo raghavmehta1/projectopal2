@@ -51,10 +51,10 @@ The `policy.rego` file contains the access control rules written in Rego, OPA's 
 
 ## Future Improvements
 
-- Implement server-side authentication and data persistence
-- Set up a real OPA server for policy evaluation
-- Add more sophisticated task management features (e.g., due dates, priorities)
-- Implement user registration and profile management
+- Can Implemente server-side authentication and data persistence
+- Can Set up a real OPA server for policy evaluation
+- Can dd more sophisticated task management features (e.g., due dates, priorities)
+- Can implement user registration and profile management
 
 
 ## License
